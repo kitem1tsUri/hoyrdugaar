@@ -28,7 +28,7 @@ function App() {
     return (
       <div className='task-container'>
         <input className='checkbox' type={'checkbox'} />
-        <p>{'Task # ${index + 1 } ${value}'}</p>
+        <p>{`Task # ${index + 1 } ${value}`}</p>
 
         <Button className="button1" onClick={deleteTodo}
           value="Delete" />
