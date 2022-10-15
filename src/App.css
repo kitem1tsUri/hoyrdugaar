@@ -1,9 +1,33 @@
-#add{ 
-  background-color: white;
-  border-radius: 15%;
-}
+    #title { 
+      font-size: 50px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #line{ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
 
-#input{ 
+.hud{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  /* border-width: 1px; */
+  border-bottom: solid 1px black;
+  /* border-color: black; */
+  width: 100px;
+}
+.bla{ 
   background-color: white;
-  border-width: 1px;
+  width: 10px;
+  height: 10px;
+  border: 1px;
+  /* border-color: black; */
+  border: solid 2px black;
+}
+:hover.bla{ 
+  background-color: black;
 }
