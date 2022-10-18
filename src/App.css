@@ -1,47 +1,33 @@
-.line{
-  background-color: gray;
-  width: 200px;
-  height: 2px;
-  margin-left: 10px;
-
+#title { 
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.sign { 
-  display: flex;
-  align-items: center;
-}
-.container { 
+#line{ 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.Name{ 
-  width: 264.65px;
-  margin: 10px;
-}
-.name{ 
-  border-width: 1px;
-  height: 30px;
-  width: 260px;
-  border: 1px;
-  border-color: black;
+  
 }
 
-.button{ 
-  background-color: purple;
-  width:100px;
-  height: 40px;
-  border-radius: 5px;
+.hud{ 
+display: flex;
+justify-content: center;
+align-items: center;
+color:black;
+/* border-width: 1px; */
+border-bottom: solid 1px black;
+/* border-color: black; */
+width: 100px;
 }
-.input{ 
-  border-left: none;
-  border-top: none;
-  border-right: none;
-  width: 264px;
+.bla{ 
+background-color: white;
+width: 10px;
+height: 10px;
+border: 1px;
+/* border-color: black; */
+border: solid 2px black;
 }
-.mini{ 
-  margin-top: 15px;
-  display: flex;
-  justify-content: start;
-  width: 264px;
+:hover.bla{ 
+background-color: black;
 }
