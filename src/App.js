@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import React, { useState, useRef, useEffect } from "react";
 import './App.css';
 
@@ -25,7 +24,16 @@ function App() {
         <input onChange={(asdsad) => akjsbdnlcdvsnjbh(asdsad.target.value)} /> <button onClick={filt} />
       </div>
     </div>
-
+    // <div className='container'> 
+    // <div className='mini'>
+    // <img src={require('./star.png')} /> 
+    // <img src={require('./star.png')} /> 
+    // <img src={require('./star.png')} /> 
+    // <img src={require('./star.png')} /> 
+    // <img src={require('./star.png')} /> 
+    // </div>
+    // <div className='text'> Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place.</div>
+    // </div>
   );
   function filt() {
 
