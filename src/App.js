@@ -11,7 +11,13 @@ function App() {
         <div>
             <div className='header'>
                 <div className='team'> </div>
-                <div> </div>
+                <div className='log'>
+                    <div className='texts'>Products </div>
+                    <div className='texts'>Services </div>
+                    <div className='texts'>Contact </div>
+                    <div className='texts'>Log in </div>
+                    <div className='texts'>Get access </div>
+                </div>
             </div>
             <div className='container'>
                 <div className='top'>
@@ -34,6 +40,9 @@ function App() {
                     </div>
                 </div>
             </div>
+            <div className='pad'>hi
+                <div className='padd'>h2</div></div>
+
         </div>
 
 

@@ -66,4 +66,46 @@
 }
 .header{ 
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.log { 
+    display: flex;
+
+}
+.texts { 
+    color: white;
+    margin-top: 15px;
+    width: 128px;
+    height: 56px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texts:hover { 
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    opacity: 50%;
+}
+.pad{ 
+    position: relative;
+    width: 1179px;
+    height: 705px;
+    margin-left: 833px;
+    margin-top: 960px;
+    background-color: grey;
+}
+.padd { 
+    position: absolute;
+    width: 263px;
+    height: 130px;
+    /* margin-left: 691px; */
+    /* margin-top: 1034px; */
+    top: -100px;
+    background-color:red;
+
 }
