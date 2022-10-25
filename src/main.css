@@ -2,4 +2,58 @@
     width: 100vw;
     height: 100vh;
     background-image: url(./back.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top { 
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.title{ 
+    width: 514px;
+    height: 120px;
+    color: white;
+    font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 140px;
+}
+.minititle{ 
+    width: 324px;
+    height: 58px;
+    font-size: 18px;
+    color: white;
+    margin-left: 140px;
+}
+.bottom { 
+    display: flex;
+    margin-left: 140px;
+    margin-bottom: 213px ;
+    
+}
+.get { 
+    width: 163.41px;
+    height: 56px;
+    border-radius: 4px;
+    background: #0BBEF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{ 
+    width: 316.92px;
+    height: 56px;
+}
+.ear{ 
+    font-family: 'Mulish';
+    color: white;
+    margin-left: 13.8px;
+}
+.team{ 
+    color: white;
+    display: flex;
+}
+.dot{ 
+    color: blue;
 }
