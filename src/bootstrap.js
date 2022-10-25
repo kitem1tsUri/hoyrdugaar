@@ -16,7 +16,7 @@ function Bootstrap() {
     //     <Button variant="info">Info</Button>{' '}
     //     <Button variant="light">Light</Button>{' '}
     //     <Button variant="dark">Dark</Button>
-    //     <Button variant="link">Link</Button>
+    //     <Button variant="link">Link</Button>    
 
     //     </>
     // )
