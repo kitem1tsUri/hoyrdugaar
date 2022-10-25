@@ -57,3 +57,13 @@
 .dot{ 
     color: blue;
 }
+.team{ 
+    margin-left: 140px;
+    margin-top: 15px;
+    background-image: url(./picture/team..png);
+    width: 83px;
+    height: 23px;
+}
+.header{ 
+    position: fixed;
+}
