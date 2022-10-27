@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Users from "./Users";
 import "./main.css";
+import image1 from './picture/pad/icon.png'
 
 function App() {
     return (
@@ -40,8 +41,17 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className='pad'>hi
-                <div className='padd'>h2</div></div>
+            <div className='flex'>
+                <div className='Grow'>
+
+                </div>
+                <div className='pad'>
+                    <div className='padd'>h2</div>
+                    <div className='paddd'><img className='image1' src={image1} /> </div>
+                    <div className='padddd'><img/> </div>
+                </div>
+            </div>
+
 
         </div>
 
@@ -51,6 +61,7 @@ function App() {
     //     return (
     //         <BrowserRouter>
     //         <Link to="/about">about</Link>
+
 
     //         <Link to="./users"> users</Link>
 

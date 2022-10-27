@@ -1,10 +1,11 @@
 .container { 
     width: 100vw;
     height: 100vh;
-    background-image: url(./back.png);
+    background-image: url(.//picture/pad/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1\ \(1\).jpg    );
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-size: cover;
 }
 .top { 
     display: flex;
@@ -93,19 +94,44 @@
 }
 .pad{ 
     position: relative;
-    width: 1179px;
+    display: flex;
+
+    width: 640px;
     height: 705px;
-    margin-left: 833px;
-    margin-top: 960px;
-    background-color: grey;
+    margin-right: 0px;
+    background-image: url(./picture/pad/ooto\ Meetings\ 1\ copy.png);
+    border-radius: 20px;
+    background-size: cover;
+    
 }
 .padd { 
     position: absolute;
     width: 263px;
     height: 130px;
-    /* margin-left: 691px; */
-    /* margin-top: 1034px; */
-    top: -100px;
+    left: -102px;
+    top: 74px;
     background-color:red;
+}
+.paddd { 
+    position: absolute;
+    width: 55.02px;
+    height: 55.02px;
+    right: 754px;
+    bottom: 667.98px;
+}
+.padddd { 
+    position: absolute;
+    width: 78.96px;
+    height: 7.96px;
+    left: -40px;
+    top: 544px;
+}
 
+.flex{
+    display: flex;
+
+}
+
+.Grow{
+    flex-grow: 1;
 }
