@@ -95,9 +95,9 @@
 .pad{ 
     position: relative;
     display: flex;
-
+    margin-top: 169px   ;
     width: 640px;
-    height: 705px;
+    height: 755px;
     margin-right: 0px;
     background-image: url(./picture/pad/ooto\ Meetings\ 1\ copy.png);
     border-radius: 20px;
@@ -110,13 +110,15 @@
     height: 130px;
     left: -102px;
     top: 74px;
-    background-color:red;
+    background-color:F5F5F5;
+    background-image: url(./picture/event\ 1.png);
+    background-size: cover;
 }
 .paddd { 
     position: absolute;
     width: 55.02px;
     height: 55.02px;
-    right: 754px;
+    right: 254px;
     bottom: 667.98px;
 }
 .padddd { 
@@ -125,6 +127,16 @@
     height: 7.96px;
     left: -40px;
     top: 544px;
+    
+}
+.bell { 
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    background-image: url(./picture/pad/bell.png);
+    background-size: cover; 
+    left: -34px;
+    bottom: 5px;
 }
 
 .flex{
@@ -134,4 +146,107 @@
 
 .Grow{
     flex-grow: 1;
+}
+.your_title { 
+    width: 398px;
+    height: 120px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+}
+.give_title { 
+    margin-top: 30px;
+    width: 465px;
+    height: 145px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titles {
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+}
+.women { 
+    width: 558px;
+    height: 575px;
+    background-image: url(./picture/women.png);
+    position: relative;
+}
+.deed {
+    left: 309px;
+    position: absolute;
+    width: 229px;
+    height: 116px;
+    background-color: white;
+    background-image: url(./picture/top.png); 
+    border-radius: 6px;
+    bottom: 422px;
+}
+.dood { 
+    left: 309px;
+    bottom: 303px;
+    width: 249px;
+    height: 99px;
+    border-radius: 6px;
+    position: absolute;
+    background-image: url(./picture/bottom.png);
+}
+
+.mini_container { 
+    margin-top: 139px;
+    display: flex;
+}
+.text { 
+    margin-top: 50px;
+    margin-left: 145px;
+}
+.simple{ 
+    width: 398px;
+    height: 120px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+}
+.lorem { 
+    margin-top: 30px;
+    width: 465px;
+    height: 145px;
+}
+.minii_container { 
+    margin-top: 139px;
+    display: flex;
+    justify-content: end;
+    margin-right: 300px;
+}
+.textt { 
+    margin-top: 50px;
+    margin-right: 145px;
+
+}
+.woman { 
+    width: 558px;
+    height: 575px;
+    background-image: url(./picture/woman.png);
+    position: relative;
+}
+.calendar {
+    position: absolute;
+    background-image: url(./picture/dund.png);
+    width: 271px;
+    height: 304px;
+    left: 61px;
+    top: 65px;
+}
+.what { 
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first {
+    height: 374px;
+    width: 366px;
+    background-color: black;
+    color: white;
 }

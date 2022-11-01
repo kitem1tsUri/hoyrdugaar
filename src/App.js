@@ -42,14 +42,66 @@ function App() {
                 </div>
             </div>
             <div className='flex'>
+                <div className='titles'> 
+                    <div>
+                    <div className='your_title'> Your Hub for teamwork</div>
+                    <div className='give_title'> Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place.</div>
+                    </div>
+                </div>
                 <div className='Grow'>
 
                 </div>
                 <div className='pad'>
-                    <div className='padd'>h2</div>
-                    <div className='paddd'><img className='image1' src={image1} /> </div>
-                    <div className='padddd'><img/> </div>
+                    <div className='padd'></div>
+                    <div className='paddd'><img src={image1} /> </div>
+                    <div className='padddd'></div>
+                    <div className='bell'></div>
                 </div>
+            </div>
+            <div className='mini_container'> 
+                <div className='women'>
+                    <div className='deed'></div>
+                    <div className='dood'></div> 
+                </div>
+                <div className='text'>
+                    <div className='simple'>
+                        Simpe task managment
+                    </div>
+                    <div className='lorem'> 
+                    Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place.
+                    </div>
+
+                </div>
+            </div>
+            <div className='minii_container'>
+                <div className='textt'>
+                    <div className='simple'>
+                    Scheduling that actually works                    </div>
+                    <div className='lorem'> 
+                    Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place.
+                    </div>
+
+                </div>
+                <div className='woman'>
+                    <div className='calendar'></div>
+                </div>
+            </div>
+            <div className='what'>
+             What people say about us   
+            </div> 
+            <div className='bottom_container'>
+                <div className='first'>
+                    <div className='star'>a</div>
+                    <div className='lorm'>Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place.</div>
+                    <div>
+                        <div className='person'></div>
+                        <div>Amy Klassen</div> 
+                    </div>
+
+                </div>
+                <div></div>
+                <div></div> 
+
             </div>
 
 
