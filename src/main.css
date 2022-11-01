@@ -247,6 +247,32 @@
 .first {
     height: 374px;
     width: 366px;
-    background-color: black;
-    color: white;
+    color: black;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.str { 
+    width: 17.11px;
+    height: 16.36px;
+    background-image: url(./picture/star.png);
+}
+.star { 
+    display: flex;
+}
+.lorm { 
+    width: 291px;
+    height: 154px;
+}
+.persons { 
+    display: flex;
+    align-items: center;
+}
+.person{ 
+    margin-right: 10px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-image: url(./picture/Ellipse.png);
 }
