@@ -239,6 +239,7 @@
     top: 65px;
 }
 .what { 
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     font-size: 48px;
