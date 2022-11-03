@@ -92,9 +92,10 @@ function App() {
             </div>
             <div className='bottom_container'>
                 <Card text={"hi bro"} name={"amy"}/>
-                <div></div>
-                <div></div>
-
+                <Card text={"lorem lorem ysm iisen "} mame={"richard"}/>
+                <Card text={"lorem lorem ysm iisen ayquu ydarchen ih onoo taviara bagshaa huurhun shu hha "} mame={"elouna"}/>
+            </div>
+            <div className='footer'> 
             </div>
 
 
