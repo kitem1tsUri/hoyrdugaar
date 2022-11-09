@@ -1,5 +1,4 @@
 
-
 const Card = ({text, name}) => {
     return (
         <div className='first'>
