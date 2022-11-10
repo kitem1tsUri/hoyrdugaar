@@ -1,4 +1,4 @@
-.texts { 
+.texts {
   color: black;
   margin-top: 15px;
   width: 128px;
@@ -9,37 +9,52 @@
   align-items: center;
 
 }
-.texts:hover { 
+
+.texts:hover {
   border-width: 2px;
   border-color: black;
   border-style: solid;
   opacity: 50%;
+  color: #2196F3;
+  border-color: #2196F3;
 }
-.header{ 
+
+.header {
+  margin-left: 20%;
+  margin-right: 20%;
   position: fixed;
   display: flex;
   justify-content: space-between;
-  width: 100vw;
+  width: 60vw;
 }
+
 .team {
   margin-top: 15px;
   width: 128px;
   height: 56px;
-  border-radius: 4px; 
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.mini { 
+
+.mini {
   display: flex;
   justify-content: space-between;
   width: 100vw;
 }
-.dark{
+
+.dark {
   background-color: black;
-}.switch {
+
+}
+
+.light {
+  color: white;
+}
+
+.switch {
   position: relative;
-  display: inline-block;
   width: 60px;
   height: 34px;
 }
@@ -76,15 +91,15 @@
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #2196F3;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -97,4 +112,18 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.blog {
+  font-size: 40px;
+  margin-left: 20%;
+
+}
+.hi { 
+  height: 100px;
+  
+}
+.lorem {
+  margin-left: 20%;
+  opacity: 50%;
 }

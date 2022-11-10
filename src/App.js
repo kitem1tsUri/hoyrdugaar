@@ -39,23 +39,41 @@ function App() {
 
 
         <div>
+            <div className={`${darkmode && 'dark'}`}> 
             <div className='header'>
                 <div>
-
+                {/* <button onClick={getData}>eniig chini ingej shaadaggui shdee huslee durkaa tolgoi tarhia ajluulda</button>
+             {
+               data.map((dfgh) => <div><img src={dfgh.image}/></div>)
+             }   */}
                 </div>
                 <div className={`mini ${darkmode && 'dark'}`}>
                     <label class="switch">
                         <input type="checkbox" onClick={() => setDarkmode(!darkmode)} />
                         <span class="slider round"></span>
                     </label>
-                    <div className='team'>team.</div>
-                    <div className='texts'>Products </div>
-                    <div className='texts'>Services </div>
-                    <div className='texts'>Contact </div>
-                    <div className='texts'>Log in </div>
-                    <div className='texts'>Get access </div>
+                    <div className={`texts ${darkmode && 'light'}`}>team.</div>
+                    <div className={`texts ${darkmode && 'light'}`}>Products </div>
+                    <div className={`texts ${darkmode && 'light'}`}>Services </div>
+                    <div className={`texts ${darkmode && 'light'}`}>Contact </div>
+                    <div className={`texts ${darkmode && 'light'}`}>Log in </div>
+                    <div className={`texts ${darkmode && 'light'}`}>Get access </div>
                 </div>
             </div>
+            <div> 
+                <div className='hi'></div>
+                <div className={`blog ${darkmode && 'light'}`}  > 
+                    Blog posts
+                </div>
+                <div className={`lorem ${darkmode && 'light'}`}> 
+                    lorem baihaa bolitsin bolu eshul ajilha bolitsim boluu ayquuu ks 
+                </div>
+            </div>
+            <div>
+                <div> </div>
+            </div> 
+            
+        </div>
         </div>
 
     );
