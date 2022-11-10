@@ -24,7 +24,7 @@ function App() {
         // let ducked;
         // ducked = res.data
         console.log(res.data.data[0].image);
-        setData(res.data.data)
+        setData(res.data.data)    
 
     }
     console.log(data)
@@ -42,10 +42,10 @@ function App() {
             <div className={`${darkmode && 'dark'}`}> 
             <div className='header'>
                 <div>
-                {/* <button onClick={getData}>eniig chini ingej shaadaggui shdee huslee durkaa tolgoi tarhia ajluulda</button>
-             {
-               data.map((dfgh) => <div><img src={dfgh.image}/></div>)
-             }   */}
+                    {/* <button onClick={getData}>eniig chini ingej shaadaggui shdee huslee durkaa tolgoi tarhia ajluulda</button>
+                {
+                data.map((dfgh) => <div><img src={dfgh.image}/></div>)
+                }   */}
                 </div>
                 <div className={`mini ${darkmode && 'dark'}`}>
                     <label class="switch">
