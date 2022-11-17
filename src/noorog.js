@@ -75,10 +75,10 @@ function App() {
                 eniig chini ingej shaadaggui shdee huslee durkaa tolgoi tarhia
                 ajluulda
               </button> */}
-              {/* {
+              {
                     data.map((dfgh) =>
                      <div><img src={data[0].image} /></div>)
-                }   */}
+                }  
               <div>
                 <img className="picture" src={data[0]?.image} />{" "}
               </div>

@@ -1,7 +1,7 @@
 import { useContext,    useEffect, useState } from "react";
 import axios from "axios";
 import { DarkmodeContext } from "./darkModeProvider";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { createContext } from "react";
 import "./Comment.css"
 export const Context = createContext();
@@ -35,8 +35,8 @@ const Comment = () => {
                      <span class="slider round"></span>
                    </label>
                    <div className={`texts ${darkmode && "light"}`}>team.</div>
-                   <div className={`texts ${darkmode && "light"}`}>Products </div>
-                   <div className={`texts ${darkmode && "light"}`}>Services </div>
+                   <Link className={`texts ${darkmode && "light"}`} to={'/'}>Home</Link>
+                   <Link className={`texts ${darkmode && "light"}`} to={'/blog'}>Blog</Link>
                    <div className={`texts ${darkmode && "light"}`}>Contact </div>
                    <div className={`texts ${darkmode && "light"}`}>Log in </div>
                    <div className={`texts ${darkmode && "light"}`}>Get access </div>

@@ -161,7 +161,7 @@ function App() {
         <div className="team"> </div>
         <div className="log">
           <Link className="texts" to={'/blog'}>Blog</Link>
-          <div className="texts">Products </div>
+          <Link className="texts" to={'/'}>Products </Link>
           <div className="texts">Services </div>
           <div className="texts">Contact </div>
           <div className="texts">Log in </div>
@@ -248,6 +248,7 @@ function App() {
           }
           mame={"elouna"}
         />
+        <Card text={"so im a khuslen developer"} name={"khuslen"}/>
       </div>
       <div className="footer"></div>
    

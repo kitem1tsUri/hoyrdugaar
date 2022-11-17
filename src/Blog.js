@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import "./Blog.css";
 import { DarkmodeContext } from "./darkModeProvider";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const Blog = () => {
   const [data, setData] = useState([]);
   const { darkmode, setdarkmode } = useContext(DarkmodeContext);
@@ -31,8 +31,8 @@ const Blog = () => {
             <input type="checkbox" onClick={() => setdarkmode(!darkmode)} />
             <span class="slider round"></span>
           </label>
-          <div className={`texts ${darkmode && "light"}`}>team.</div>
-          <div className={`texts ${darkmode && "light"}`}>Products </div>
+          <div className={`texts ${darkmode && "light"}`}>team.</div  >
+          <Link className={`texts ${darkmode && "light"}`} to={'/'}>Home</Link>
           <div className={`texts ${darkmode && "light"}`}>Services </div>
           <div className={`texts ${darkmode && "light"}`}>Contact </div>
           <div className={`texts ${darkmode && "light"}`}>Log in </div>
