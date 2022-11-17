@@ -62,8 +62,9 @@
     margin-left: 140px;
     margin-top: 15px;
     background-image: url(./picture/team..png);
-    width: 83px;
-    height: 23px;
+    width: 103px;
+    height: 8px;
+    background-size: cover;
 }
 .header{ 
     position: fixed;
@@ -76,7 +77,7 @@
 
 }
 .texts { 
-    color: white;
+
     margin-top: 15px;
     width: 128px;
     height: 56px;

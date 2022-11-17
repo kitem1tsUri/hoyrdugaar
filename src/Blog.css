@@ -1,0 +1,187 @@
+.h1 {
+    color: red;
+}
+.dark {
+    background-color: black;
+}
+.light {
+    color: white;
+}
+.texts {
+    color: black;
+    margin-top: 15px;
+    width: 128px;
+    height: 56px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .texts:hover {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    opacity: 50%;
+    color: #2196F3;
+    border-color: #2196F3;
+  }
+  
+  .header {
+    margin-left: 20%;
+    margin-right: 20%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+  }
+  
+  .team {
+    margin-top: 15px;
+    width: 128px;
+    height: 56px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mini {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  
+  .dark {
+    background-color:  black;
+    width: 100vw;
+    height: 100vh;
+  
+    }
+  
+  .light {
+    color: white;
+  }
+  
+  .switch {
+    position: relative;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked+.slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .blog {
+    font-size: 40px;
+    margin-left: 20%;
+  
+  }
+  .hi { 
+    height: 100px;
+    
+  }
+  .lorem {
+    margin-left: 20%;
+    opacity: 50%;
+    margin-bottom: 20px;
+  }
+  .comments {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .photo { 
+    display: flex;
+    justify-content: center;
+  }
+  .blog { 
+    margin-bottom: 30px;
+  }
+  .lorem {
+    margin-bottom: 20px;
+  }
+  .picture {
+    width: 300px;
+    height: 300px;
+  }
+  .blog {
+      margin-top: 100px;
+  }
+  .tom {
+      padding-top: 100px;
+  }
+  .text {
+      margin-top: 0;
+      margin-left: 0;
+      opacity: 50%;
+      font-size: 10px;
+  }
+  .hi {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+  }
+  .dog {
+    display: flex;
+  }
+  .dogs {
+    display: flex;
+    width: 100px;
+    height: 100px;
+
+  }
