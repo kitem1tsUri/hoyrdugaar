@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Link, Route, redirect } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Users from "./Users";
+import { DarkmodeContext } from "./darkModeProvider";
 import "./main.css";
 import { useContext } from "react";
 import { createContext } from "react";
@@ -11,11 +12,18 @@ import image1 from "./picture/pad/icon.png";
 import Card from "./components/Card";
 import axios from "axios";
 
+
+
+//Huslen suga sda hahhahahhahahhah 
+
+
+
 export const Context = createContext();
 
 function App() {
   const [data, setData] = useState([]);
-  const [darkmode, setDarkmode] = useState(false);
+  const { darkmode, setdarkmode } = useContext(DarkmodeContext);
+  // const [darkmode, setdarkmode] = useState(false);
   const [list, setList] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [asdvf, akjsbdnlcdvsnjbh] = useState("");
@@ -156,16 +164,20 @@ function App() {
   // }
   // export default App;
   return (
-    <div>
+    <div className={`${darkmode && "dark"}`}>
       <div className="header">
         <div className="team"> </div>
+        <label class="switch">
+            <input type="checkbox" onClick={() => setdarkmode(!darkmode)} checked={darkmode}    />
+            <span class="slider round"></span>
+          </label>
         <div className="log">
-          <Link className="texts" to={'/blog'}>Blog</Link>
-          <Link className="texts" to={'/'}>Products </Link>
-          <div className="texts">Services </div>
-          <div className="texts">Contact </div>
-          <div className="texts">Log in </div>
-          <div className="texts">Get access </div>
+          <Link className={`texts ${darkmode && "light"}`} to={'/blog'}>Blog</Link>
+          <Link className={`texts ${darkmode && "light"}`} to={'/'}>Products </Link>
+          <div className={`texts ${darkmode && "light"}`}>Services </div>
+          <div className={`texts ${darkmode && "light"}`}>Contact </div>
+          <div className={`texts ${darkmode && "light"}`}>Log in </div>
+          <div className={`texts ${darkmode && "light"}`}>Get access </div>
         </div>
       </div>
       <div className="container">
@@ -189,8 +201,8 @@ function App() {
       <div className="flex">
         <div className="titles">
           <div>
-            <div className="your_title"> Your Hub for teamwork</div>
-            <div className="give_title">
+            <div className={`your_title ${darkmode && "light"}`}> Your Hub for teamwork</div>
+            <div className={`give_title ${darkmode && "light"}`}>
               {" "}
               Give everyone you work with—inside and outside your company—a more
               productive way to stay in sync. Respond faster with emoji, keep
@@ -215,8 +227,8 @@ function App() {
           <div className="dood"></div>
         </div>
         <div className="text">
-          <div className="simple">Simpe task managment</div>
-          <div className="lorem">
+          <div className={`simple ${darkmode && "light"}`}>Simpe task managment</div>
+          <div className={`lorem ${darkmode && "light"}`}>
             Give everyone you work with—inside and outside your company—a more
             productive way to stay in sync. Respond faster with emoji, keep
             conversations focused in channels, and simplify all your
@@ -226,8 +238,8 @@ function App() {
       </div>
       <div className="minii_container">
         <div className="textt">
-          <div className="simple">Scheduling that actually works </div>
-          <div className="lorem">
+          <div className={`simple ${darkmode && "light"}`}>Scheduling that actually works </div>
+          <div className={`lorem ${darkmode && "light"}`}>
             Give everyone you work with—inside and outside your company—a more
             productive way to stay in sync. Respond faster with emoji, keep
             conversations focused in channels, and simplify all your
@@ -241,15 +253,15 @@ function App() {
       <div className="what">What people say about us</div>
       <div className="bottom_container">
         <Card text={"hi bro"} name={"amy"} />
-        <Card text={"lorem lorem ysm iisen "} mame={"richard"} />
+        <Card text={"lorem lorem ysm iisen "} name={"richard"} />
         <Card
           text={
             "lorem lorem ysm iisen ayquu ydarchen ih onoo taviara bagshaa huurhun shu hha "
           }
-          mame={"elouna"}
+          name={"elouna"}
         />
         <Card text={"so im a khuslen developer"} name={"khuslen"}/>
-      </div>
+      </div> 
       <div className="footer"></div>
    
         

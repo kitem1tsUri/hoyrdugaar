@@ -28,7 +28,7 @@ const Blog = () => {
       <div className="header">
         <div className="mini">
           <label class="switch">
-            <input type="checkbox" onClick={() => setdarkmode(!darkmode)} />
+            <input type="checkbox" onClick={() => setdarkmode(!darkmode)} checked={darkmode}/>
             <span class="slider round"></span>
           </label>
           <div className={`texts ${darkmode && "light"}`}>team.</div  >
