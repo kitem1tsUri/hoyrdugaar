@@ -21,18 +21,24 @@ const Blog = () => {
     getData();
   }, []);
   const console1 = (id) => {
-    navigation(`${id}`)
+    navigation(`${id}`);
   };
   return (
     <div className={`tom ${darkmode && "dark"}`}>
       <div className="header">
         <div className="mini">
           <label class="switch">
-            <input type="checkbox" onClick={() => setdarkmode(!darkmode)} checked={darkmode}/>
+            <input
+              type="checkbox"
+              onClick={() => setdarkmode(!darkmode)}
+              checked={darkmode}
+            />
             <span class="slider round"></span>
           </label>
-          <div className={`texts ${darkmode && "light"}`}>team.</div  >
-          <Link className={`texts ${darkmode && "light"}`} to={'/'}>Home</Link>
+          <div className={`texts ${darkmode && "light"}`}>team.</div>
+          <Link className={`texts ${darkmode && "light"}`} to={"/"}>
+            Home
+          </Link>
           <div className={`texts ${darkmode && "light"}`}>Services </div>
           <div className={`texts ${darkmode && "light"}`}>Contact </div>
           <div className={`texts ${darkmode && "light"}`}>Log in </div>

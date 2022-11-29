@@ -12,11 +12,7 @@ import image1 from "./picture/pad/icon.png";
 import Card from "./components/Card";
 import axios from "axios";
 
-
-
-//Huslen suga sda hahhahahhahahhah 
-
-
+//Huslen suga sda hahhahahhahahhah
 
 export const Context = createContext();
 
@@ -168,12 +164,20 @@ function App() {
       <div className="header">
         <div className="team"> </div>
         <label class="switch">
-            <input type="checkbox" onClick={() => setdarkmode(!darkmode)} checked={darkmode}    />
-            <span class="slider round"></span>
-          </label>
+          <input
+            type="checkbox"
+            onClick={() => setdarkmode(!darkmode)}
+            checked={darkmode}
+          />
+          <span class="slider round"></span>
+        </label>
         <div className="log">
-          <Link className={`texts ${darkmode && "light"}`} to={'/blog'}>Blog</Link>
-          <Link className={`texts ${darkmode && "light"}`} to={'/'}>Products </Link>
+          <Link className={`texts ${darkmode && "light"}`} to={"/blog"}>
+            Blog
+          </Link>
+          <Link className={`texts ${darkmode && "light"}`} to={"/"}>
+            Products{" "}
+          </Link>
           <div className={`texts ${darkmode && "light"}`}>Services </div>
           <div className={`texts ${darkmode && "light"}`}>Contact </div>
           <div className={`texts ${darkmode && "light"}`}>Log in </div>
@@ -201,7 +205,10 @@ function App() {
       <div className="flex">
         <div className="titles">
           <div>
-            <div className={`your_title ${darkmode && "light"}`}> Your Hub for teamwork</div>
+            <div className={`your_title ${darkmode && "light"}`}>
+              {" "}
+              Your Hub for teamwork
+            </div>
             <div className={`give_title ${darkmode && "light"}`}>
               {" "}
               Give everyone you work with—inside and outside your company—a more
@@ -227,7 +234,9 @@ function App() {
           <div className="dood"></div>
         </div>
         <div className="text">
-          <div className={`simple ${darkmode && "light"}`}>Simpe task managment</div>
+          <div className={`simple ${darkmode && "light"}`}>
+            Simpe task managment
+          </div>
           <div className={`lorem ${darkmode && "light"}`}>
             Give everyone you work with—inside and outside your company—a more
             productive way to stay in sync. Respond faster with emoji, keep
@@ -238,7 +247,9 @@ function App() {
       </div>
       <div className="minii_container">
         <div className="textt">
-          <div className={`simple ${darkmode && "light"}`}>Scheduling that actually works </div>
+          <div className={`simple ${darkmode && "light"}`}>
+            Scheduling that actually works{" "}
+          </div>
           <div className={`lorem ${darkmode && "light"}`}>
             Give everyone you work with—inside and outside your company—a more
             productive way to stay in sync. Respond faster with emoji, keep
@@ -260,11 +271,9 @@ function App() {
           }
           name={"elouna"}
         />
-        <Card text={"so im a khuslen developer"} name={"khuslen"}/>
-      </div> 
+        <Card text={"so im a khuslen developer"} name={"khuslen"} />
+      </div>
       <div className="footer"></div>
-   
-        
     </div>
   );
 }
